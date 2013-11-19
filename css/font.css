@@ -1,0 +1,38 @@
+@font-face {
+	font-family: 'anncaryn';
+	src:url('./fonts/anncaryn.eot');
+	src:url('./fonts/anncaryn.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/anncaryn.ttf') format('truetype'),
+		url('./fonts/anncaryn.woff') format('woff'),
+		url('./fonts/anncaryn.svg#anncaryn') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'anncaryn';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-designStories:before {
+	content: "\e600";
+	color:#000;
+	font-size:20em;
+	margin-top: -290px;
+	margin-bottom:5px;
+}
+.icon-ac:before {
+	content: "\e601";
+	color:#fff;
+	font-size:18em;
+	margin-top: -20px;
+}
